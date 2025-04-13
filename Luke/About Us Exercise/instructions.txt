@@ -1,0 +1,15 @@
+Students:
+
+This ZIP contains a folder called "testing". Inside is a complete website, with HTML, CSS and JS. Open the folder in Visual Studio Code so that its contents are displayed in Explorer. (Remember to close any open folders first, and note that you won't be able to drag-and-drop the folder onto Code unles you unzip the download first.)
+
+Run and Review:
+- Run the project (it lacks a .vscode folder with a launch.json file, so make sure you have the HTML page open when you hit F5)
+- Click each name and view the displayed information about each employee
+- Go over the HTML and JavaScript code and understand how it works
+
+Actions: 
+- Convert the project from onclick events to to Event Listeners
+- Add another employee 
+
+Tip: You'll need to modify the HTML *and* the array of objects called "employees" as well as changing the displayEmployee() function. 
+

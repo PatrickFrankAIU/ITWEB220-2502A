@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#employee-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#employee-list ul li {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#employee-details {
+    margin-top: 20px;
+}
+
+#employee-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Ensures that the content is vertically centered in the viewport */
+}
+
+#employee-details {
+    width: 50%; /* Adjusts the width of the details box */
+    max-width: 600px; /* Maximum width for larger screens */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Adds a subtle shadow for a floating effect */
+    text-align: center; /* Centers the text inside the box */
+    background-color: white; /* Sets a background color */
+    margin: 20px 0; /* Adds some space around the details box */
+}
+
+#employee-list ul li:hover {
+    background-color: #f0f0f0; /* Adds a hover effect for better interactivity */
+}
